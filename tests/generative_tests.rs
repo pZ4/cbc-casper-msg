@@ -629,7 +629,6 @@ fn blockchain() {
     let mut config = Config::with_cases(1);
     config.source_file = Some("tests/generative_tests.rs");
 
-
     for chain_id in 0..10 {
         // TestRunners run only N times when using Config::with_cases(N);
         // so we have to create a new runner with said config each time we want
